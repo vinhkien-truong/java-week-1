@@ -50,17 +50,32 @@ public class ArithmeticE
 
         // -------------------- Student Exercises --------------------
         // 1. Create two int variables x and y, then perform all arithmetic operations.
-
+        int x = 9,y = 2;
+        System.out.println("x + y = " + (x + y));
+        System.out.println("x - y = " + (x - y));
+        System.out.println("x * y = " + (x * y));
+        System.out.println("x / y = " + (x / y));
+        System.out.println("x % y = " + (x % y));   
+        
         // 2. Try division with numbers that don’t divide evenly (e.g., 7 / 2).
+         System.out.println("7/2 = " + (7 / 2));   
 
         // 3. Use double variables for division and compare with int division.
+        double xD = 7, yD = 2;
+        System.out.println("double test div : " + (xD / yD));
 
         // 4. Create three int variables, add them, and print the total.
+        int u=2,i=6,o=23;
+        System.out.println("add test  : " + (u+i+o));
 
         // 5. Calculate the square of a number (e.g., 6 * 6).
+        System.out.println("square test  : " + (6*6));
 
         // 6. Calculate the average of three numbers.
+        System.out.println("avg test  : " + ((double)(6+6+2)/3));
 
         // 7. Try dividing a number by 0 (both int and double) and observe the behavior.
+        System.out.println("double 0 test  : " + ((double)(238)/0));
+        System.out.println("int 0 test  : " + (u/0));
     }
 }

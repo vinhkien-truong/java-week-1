@@ -50,15 +50,46 @@ public class AssignmentE
 
         // -------------------- Student Exercises --------------------
         // 1. Create an int variable b = 20 and use +=, -= with it.
-
+        int b = 20;
+        b += 2;
+        System.out.println("b add : " +b);
+        b -= 5;
+        System.out.println("b sub : " +b);
         // 2. Create an int variable c = 15 and use *=, /= with it.
-
+        int c = 15;
+        c *= 3;
+        System.out.println("c multp : " + c);
+        c /= 4;
+        System.out.println("c div : "+ c);
         // 3. Use %= with c to find remainder when divided by 4.
+        c %= 3;
+        System.out.println("c mod : "+ c);
 
         // 4. Create a double variable d = 12.5, then use += and *=.
-
+        double d = 12.5;
+        d += 8.2;
+        System.out.println("d add : "+ d);
+        d *= 2.3;
+        System.out.println("d mult : "+ d);
         // 5. Create x = 7, double it with +=, then square it with *=.
+        double x = 7;
+        x += 7;
+        System.out.println("x add : "+ x);
+        x *= 14;
+        System.out.println("x square : "+ x);
 
         // 6. Start y = 50, apply -= 10, *= 2, /= 5, %= 6 step by step.
+        double y = 50;
+        y -= 10;
+        System.out.println("y sub : " +y);
+        y *= 2;
+        System.out.println("y mul : " +y);
+
+        y /= 5;
+        System.out.println("y div : " +y);
+
+        y %= 6;
+        System.out.println("y mod : " +y);
+
     }
 }

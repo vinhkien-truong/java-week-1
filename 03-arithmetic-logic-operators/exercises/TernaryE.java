@@ -32,13 +32,23 @@ public class TernaryE
 
         // -------------------- Student Exercises --------------------
         // 1. Create int x = 15, y = 25; use ternary to find minimum.
+        int x = 15, y = 25;
+        System.out.println("max : " + (x > y ? x : y));
 
         // 2. Create int age = 18; use ternary to print "Adult" or "Minor".
+        int age = 18;
+        System.out.println("age : " + (age >= 18 ? "Adult" : "Minor"));
 
         // 3. Create int a = 10, b = 20, c = 15; use nested ternary to find largest.
+        int c = 15;
+        System.out.println("largest = " + ((a > b) ? (a > c) ? a : c : (b > c) ? b : c ));
 
         // 4. Create boolean isRaining = true; use ternary to print umbrella advice.
+        boolean isRaining = true;
+        System.out.println("umbrella : " + (isRaining ? "take an umbrella" : "no umbrella needed"));
 
         // 5. Check if n = 7 is even or odd using ternary and print.
+        int n = 7;
+        System.out.println("odd or even : " + (n % 2 == 0 ? "even" : "odd" ));
     }
 }

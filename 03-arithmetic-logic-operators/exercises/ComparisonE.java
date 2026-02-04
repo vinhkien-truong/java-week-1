@@ -58,15 +58,31 @@ public class ComparisonE
 
         // -------------------- Student Exercises --------------------
         // 1. Create int a = 50, b = 25 and compare them.
+        int a = 50, b = 25;
+        System.out.println("a equal b : " + (a == b));
 
         // 2. Create double p = 5.5, q = 7.2 and compare them.
+        double p = 5.5, q = 7.2;
+        System.out.println("p equal q : " + (p == q));
 
         // 3. Create char c1 = 'A', c2 = 'B' and check if c1 < c2.
+        char c1 = 'A', c2 = 'B';
+        System.out.println("c1 and c2 : " + (c1 < c2));
 
         // 4. Check if (x < y) AND (x != y).
+        System.out.println("x smaller y : " + (x < y));
+        System.out.println("x diff y: " + (x != y));
 
         // 5. Compare two Strings using .equals() instead of ==.
-
+        String s1 = "aaaab", s2 = "bbbba", s3 = "hhh", s4 = "hhh";
+        System.out.println("s1 equal s2: " + (s1.equals(s2)));
+        System.out.println("s3 equal s4: " + (s3.equals(s4)));
         // 6. Create three int variables and determine the largest.
+        int max1 = 14, max2 = 18, max3 = 92;
+        int max;
+        max = max1 > max2 ? max1 : max2;
+        max = max2 > max3 ? max2 : max3;
+        max = max1 > max3 ? max1 : max3;
+        System.out.println("max : " + max);
     }
 }

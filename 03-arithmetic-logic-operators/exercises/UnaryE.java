@@ -46,11 +46,41 @@ public class UnaryE
 
         // -------------------- Student Exercises --------------------
         // 1. Create int num = 8; apply unary minus and plus.
+        int num = 8;
+        System.out.println("num + :" + (+num));
+        System.out.println("num - :" + (-num));
 
         // 2. Create boolean isOpen = false; invert it with !.
+        boolean isOpen = false;
+        System.out.println("isOpen :" + (!isOpen));
 
         // 3. Create int counter = 0; use pre-increment and post-increment.
-
+        int counter = 0;
+        System.out.println("pre counter :" + (++counter));
+        System.out.println("pre counter :" + (counter));
+        System.out.println("post counter :" + (counter++));
+        System.out.println("post counter :" + (counter));
         // 4. Create int count = 5; use pre-
+        int count = 0;
+        System.out.println("pre count :" + (--counter));
+        System.out.println("pre count :" + (counter));
+        System.out.println("post count :" + (counter--));
+        System.out.println("post count :" + (counter));
+
+        /*
+         * Bonus:
+ * 5. Combine unary operators with arithmetic:
+ *    Example: int x = 10; int y = -x + ++x; print y and explain.
+        */
+       x = 10;
+       y = -x + ++x;
+
+
+       System.out.println("bonus : " + y);
+        /*
+            it's 1 because we convert 10 to -10 and the other side
+            we increment X first which gives 11 
+            then we do this operation -10 + 11 = 1
+       */
     }
 }

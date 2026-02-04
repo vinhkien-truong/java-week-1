@@ -49,23 +49,43 @@ public class DataTypesE
 
         // -------------------- Student Exercises --------------------
         // 1. Create an int variable called age and assign it your age
-
+        int age = 31;
         // 2. Create a double variable called temperature and assign it any decimal
-
+        double temperature = 18.4;
         // 3. Create a char variable called gradeLetter and assign it a letter
-
+        char gradeLetter = 'M';
         // 4. Create a boolean variable called isJavaFun and assign true or false
-
+        boolean isJavaFun = true;
         // 5. Create a String variable called favoriteColor and assign it a color
-
+        String favoriteColor = "red";
         // 6. Create an int array called numbers with at least 5 values, then print them
-
+        int[] numbers = {1,2,3,4,5};
+        System.out.println("numbers : "+numbers);
+        for(int i = 0 ; i < numbers.length; i++ ){
+            System.out.println("numbers for : "+numbers[i]);
+        }
         // 7. Change one value inside numbers and print the updated array
-
+        numbers[3] = 8;
+        for (int num : numbers) 
+        {
+            System.out.println("num : "+  num );
+        }
+        for(int i = 0 ; i < numbers.length; i++ ){
+            System.out.println("numbers new for : "+numbers[i]);
+        }
         // 8. Create a String array with 3 favorite foods and print them in a loop
-
+        String[] foods = {"burger","noodle","fries"};
+        for(int i = 0 ; i < foods.length; i++ ){
+            System.out.println("foods for : "+foods[i]);
+        }
         // 9. Create two double variables, add them together, and print the result
+        double varDouble1 = 298.922;
+        double varDouble2 = 2002.82;
+        double varResult = varDouble1 + varDouble2;
+        System.out.println("double Result : "+ varResult);
 
         // 10. Use String concatenation to print: "My name is ___ and I am ___ years old."
+        String name = "Kien";
+        System.out.println("My name is "+name+" and I am "+age+" years old.");
     }
 }

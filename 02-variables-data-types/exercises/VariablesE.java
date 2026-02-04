@@ -31,19 +31,30 @@ public class VariablesE
 
         // -------------------- Student Exercises --------------------
         // 1. Create a char variable called myLetter and assign it any letter
+        char myLetter = 'A';
 
         // 2. Create a float variable called myFloat and assign it any decimal
+        float myFloat = 2.3f;
 
         // 3. Create a long variable called myBigNumber and assign it a large number
+        long myBigNumber = 99999999999999l;
+        System.out.println(myBigNumber);
 
         // 4. Create a byte variable called mySmallNumber and assign it a small number
-
+        byte mySmallNumber = 3;
         // 5. Create a short variable called myShortNumber and assign it a number
-
+        short myShortNumber = 4;
         // 6. Change the value of myNumber and print the new value
+        myNumber = 92;
 
         // 7. Create two int variables, add them, and print the result
+        int var1 = 3;
+        int var2 = 6;
+        int varAdd = var1 + var2;
+        System.out.println("Variables : " + varAdd);
 
         // 8. Create a String variable for your name and print a greeting message
+        String name = "Truong";
+        System.out.println("hello " + name);
     }
 }
